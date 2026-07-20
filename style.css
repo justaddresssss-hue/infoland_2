@@ -166,6 +166,7 @@ grid-template-columns:1fr;
 
 .badge{
     margin-top:12px;
+}
 body{
 padding:10px;
 }
@@ -190,10 +191,14 @@ text-align:center;
 .logo-box{
     display:flex;
     align-items:center;
+    flex:1;
+    min-width:0;
 }
 
 .logo-box img{
-    height:auto;
-    width:auto;
     display:block;
+    max-width:100%;
+    width:auto;
+    height:48px;
+    object-fit:contain;
 }
