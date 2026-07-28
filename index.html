@@ -1,147 +1,136 @@
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Метчик гаечный — Крепком</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гаечный метчик — Крепком</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- [ШАБЛОН] Подключение Метрики -->
+   <!-- Yandex.Metrika counter -->
 
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<!-- /Yandex.Metrika counter -->
+
 </head>
-
 <body>
-
-<div class="container">
-
-<header class="header">
-
-   <div class="logo-box">
-    <a href="https://krepcom.ru" target="_blank">
-        <img src="logo-new-krepcom_WATERMARK.png" alt="Крепком">
-    </a>
-</div>
-
-
-  
-
-</header>
-
-<section class="product-card">
-
-    <h2 class="product-title">Метчик гаечный</h2>
-
-    <p class="product-subtitle">
-        Для надёжного крепления дерева к металлу без предварительного сверления.
-    </p>
-
-    <div class="product-grid">
-
-        <div class="left-column">
-
-            <div class="main-photo">
-                <a href="6056256587.jpg.webp" target="_blank">
-                    <img src="6056256587.jpg.webp" alt="Метчик гаечный">
+    <div class="container">
+        <header class="header">
+            <div class="logo-box">
+                <a href="https://krepcom.ru" target="_blank">
+                    <!-- [ШАБЛОН] Путь к логотипу -->
+                    <img src="logo-new-krepcom_WATERMARK.png" alt="Крепком">
                 </a>
             </div>
+            <!-- [ШАБЛОН] Опциональный бейдж (например, "Хит" или "Новинка") -->
+            <!-- <span class="badge">Хит продаж</span> -->
+        </header>
 
-            <div class="video-block">
-                <h3><i class="fas fa-play-circle"></i> Видео работы</h3>
+        <main class="product-card">
+            <!-- [ШАБЛОН] Заголовок и описание -->
+            <h1 class="product-title">Гаечный метчик</h1>
+            <p class="product-subtitle">Для массовой нарезки гаек.</p>
 
-                <div class="video-wrapper">
-                    <video controls preload="metadata">
-                        <source src="для брошюры 2.mov" type="video/mp4">
-                        Ваш браузер не поддерживает видео.
-                    </video>
+            <div class="product-grid">
+                <!-- ЛЕВАЯ КОЛОНКА: Медиа и сопутствующие товары -->
+                <div class="left-column">
+                    <div class="main-photo">
+                        <!-- [ШАБЛОН] Основное изображение -->
+                        <a href="6056256587.jpg.webp" target="_blank">
+                            <img src="6056256587.jpg.webp" alt="Гаечный метчик" loading="lazy">
+                        </a>
+                    </div>
+
+                    <!-- [ШАБЛОН] Видео (удалить блок, если видео нет) -->
+                    <div class="video-block">
+                        <h3><i class="fas fa-play-circle"></i> Видео работы</h3>
+                        <div class="video-wrapper">
+                            <video controls preload="metadata" poster="poster.jpg">
+                                <source src="для брошюры 2.mov" type="video/mp4">
+                                Ваш браузер не поддерживает видео.
+                            </video>
+                        </div>
+                    </div>
+
+                    <!-- [ШАБЛОН] Сопутствующие товары -->
+                    <section class="related-products">
+                        <h2>Сопутствующие товары</h2>
+                        <div class="related-grid">
+                            <!-- Копировать блок .related-card для каждого товара -->
+                            <a href="https://krepcom.ru/catalog/smazochno-okhlazhdayushchie-sredstva/" class="related-card">
+                                <img src="биты.jpg.webp" alt="Биты" loading="lazy">
+                                <h4>СОЖ</h4>
+                            </a>
+                            
+                            <a href="https://krepcom.ru/catalog/?q=перчатки" class="related-card">
+                                <img src="перчатки.jpg.webp" alt="Перчатки" loading="lazy">
+                                <h4>Перчатки</h4>
+                                
+                                <a href="https://krepcom.ru/catalog/vorotki/" class="related-card">
+                                <img src="уровень.jpg.webp" alt="Уровень" loading="lazy">
+                                <h4>Вороток</h4>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- ПРАВАЯ КОЛОНКА: Информация и характеристики -->
+                <div class="right-column">
+                    <div class="info-card">
+                        <h3>Принцип работы</h3>
+                        <!-- [ШАБЛОН] Текст принципа работы -->
+                        <p>
+                           Гаечный метчик нарезает резьбу за один проход и сразу пропускает
+                           готовую гайку через себя на хвостовик — это делает его идеальным для массового производства гаек на станках-автоматах
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Назначение</h3>
+                        <!-- [ШАБЛОН] Текст назначения -->
+                        <p>Только для сквозных отверстий (гайки до 8 класса прочности) Подходит как для ручного использования, так и для станков.</p>
+                    </div>
+
+                    <h3 class="section-title">Характеристики</h3>
+                    <div class="specs">
+                        <!-- [ШАБЛОН] Пары "Параметр - Значение" -->
+                        <div class="spec-item"><span>Материал</span><strong>HSS</strong></div>
+                        <div class="spec-item"><span>Хвостовик</span><strong>Квадрат</strong></div>
+                        <div class="spec-item"><span>Тип резьбы</span><strong>Метрическая</strong></div>
+                        <div class="spec-item"><span>Кол-во витков</span><strong>12</strong></div>
+                        <div class="spec-item"><span>Точность</span><strong>6Н</strong></div>
+                    </div>
+
+                    <h3 class="section-title">Размерный ряд</h3>
+                    <div class="sizes">
+                        <!-- [ШАБЛОН] Размеры -->
+                        <span>М3</span><span>М4</span><span>М5</span><span>М6</span><span>и другие</span>
+                    </div>
+
+                    <h3 class="section-title">Производители</h3>
+                    <div class="manufacturers">
+                        <!-- [ШАБЛОН] Ссылки на производителей -->
+                        <a href="https://krepcom.ru" class="manufacturer-card">Fit</a>
+                        <a href="https://krepcom.ru" class="manufacturer-card">Bucovice</a>
+                        <a href="https://krepcom.ru" class="manufacturer-card">Ruko</a>
+                       <a href="https://krepcom.ru" class="manufacturer-card">H-Tools</a>
+                       <a href="https://krepcom.ru" class="manufacturer-card">Volkel</a>
+                       <a href="https://krepcom.ru" class="manufacturer-card">РИ</a>
+                        
+                    </div>
+
+                    <a class="site-link" href="https://krepcom.ru/catalog/metchiki1/gaechnye/" target="_blank">
+                        Перейти в каталог
+                    </a>
                 </div>
             </div>
+        </main>
 
-        </div>
-
-        <div class="right-column">
-
-            <div class="info-card">
-                <h3>Принцип работы</h3>
-                <p>
-                   Гаечный метчик нарезает резьбу за один проход и сразу пропускает готовую гайку через себя на хвостовик — 
-                        это делает его идеальным для массового производства гаек на станках-автоматах
-                </p>
-            </div>
-
-            <div class="info-card">
-                <h3>Назначение</h3>
-                <p>
-                  Только для сквозных отверстий (гайки до 8 класса прочности) 
-                        Подходит как для ручного использования, так и для станков.
-                </p>
-            </div>
-
-            <h3 class="section-title">Характеристики</h3>
-
-             <div class="specs">
-                    <div class="spec-item">
-                        <div class="label">Материал</div>
-                        <div class="value">HSS</div>
-                    </div>
-                    <div class="spec-item">
-                        <div class="label">Кол-во витков</div>
-                        <div class="value">12</div>
-                    </div>
-                    <div class="spec-item">
-                        <div class="label">Поле допуска</div>
-                        <div class="value">6Н</div>
-                    </div>
-                    <div class="spec-item">
-                        <div class="label">Тип резьбы</div>
-                        <div class="value">Метрическая, мелкая, правая</div>
-                    </div>
-                    <div class="spec-item">
-                        <div class="label">Хвостовик</div>
-                        <div class="value">Квадрат</div>
-                    </div>
-                    <div class="spec-item">
-                        <div class="label">Производитель</div>
-                        <div class="value">FIT</div>
-                    </div>
-                </div>
-            <h3 class="section-title">Размерный ряд</h3>
-
-            <div class="sizes">
-                <span>M3</span>
-                <span>M4</span>
-                <span>M5</span>
-                <span>M6</span>
-                <span>M8</span>
-                <span>M10</span>
-                <span>и другие</span>
-            </div>
-
-            <a class="site-link"
-               href="https://krepcom.ru/catalog/metchiki1/gaechnye/"
-               target="_blank">
-                Перейти на раздел сайта
-            </a>
-
-        </div>
-
+        <footer class="footer">
+            <p>Отсканируйте QR-код на упаковке для перехода к описанию изделия.</p>
+        </footer>
     </div>
-
-</section>
-
-<footer class="footer">
-    Отсканируйте QR-код на упаковке для перехода к описанию изделия.
-</footer>
-
-</div>
-
 </body>
 </html>
